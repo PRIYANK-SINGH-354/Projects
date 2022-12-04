@@ -1,0 +1,37 @@
+<!-- THIS IS THE SOURCE CODE FOR LOGIN PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | ComputerGeeks</title>
+    <link rel="stylesheet" href="log_style.css">
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src='ComputerGeeks-modified.png' style="border-radius: 50%;">
+        </div>
+      
+        <div class="container"><center>
+          <label for="uname"></label>
+          <input type="text" placeholder="Enter Username" name="uname" required><br>
+      
+          <label for="psw"></label>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+          <button type="submit"><a href='http://127.0.0.1:5500/project.html' style="text-decoration: none; color: #fff;">LOGIN</a></button><br>
+          <label style="color: #fff;">
+            <input type="checkbox" checked="checked" name="remember">Remember me
+          </label>
+        </div>
+        </center>
+        <div class="container" style="background-color: orangered">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot password?</span>
+        </div>
+    </form>
+</body>
+</html>
