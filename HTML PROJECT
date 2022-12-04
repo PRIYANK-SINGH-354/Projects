@@ -1,0 +1,92 @@
+
+<!-- HTML PROJECT TO CREATE A WEBSITE FOR CODING PRACTICE -->
+
+<!-- THIS IS THE SOURCE CODE FOR HOME PAGE -->
+<html>
+<head>
+<title>ComputerGeeks | Home </title>
+<link rel="stylesheet" href="style.css">
+<head>
+<body>
+
+<div class="header">
+  <h1>ComputerGeeks</h1>
+  <p style="color: orangered;">A website created by Priyank Singh and Prashant Srivastava.</p>
+</div>
+
+<div class="navbar">
+  <a href="http://127.0.0.1:5500/project.html#">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Practice</button>
+    <div class="dropdown-content">
+      <a href="https://www.hackerrank.com/products/main/">HackerRank</a>
+      <a href="https://www.codechef.com/">CodeChef</a>
+      <a href="https://coderbyte.com/">Coderbyte</a>
+      <a href="https://www.codewars.com/">Codewars</a>
+      <a href="https://www.codingame.com/start">CodinGame</a>
+      <a href="https://geektastic.com/">Geektastic</a>
+      <a href="https://www.topcoder.com/">TopCoder</a>
+      <a href="https://leetcode.com/">LeetCode</a>
+    </div>
+  </div>
+  <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+  <a href="http://127.0.0.1:5500/login.html">Login</a>
+  <a href="#" class="right">HELP</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Top Website</h2>
+    <h5>CHOICES</h5>
+    <div class="xname" style="height:200px;">
+<p>
+		<ul>      <li>2.1 HackerRank</li>
+              <li>2.2 CodeChef.</li> 
+              <li>2.3 Coderbyte.</li>
+              <li>2.4 Codewars.</li>
+              <li>2.5 CodinGame.</li>
+              <li>2.6 Geektastic.</li>
+              <li>2.7 TopCoder.</li>
+              <li>2.8 LeetCode.</li>
+      </ul>
+</p>
+</div>
+    <p>
+     <h3>Practice available at</h3>
+		<ul>     <li>2.1 HackerRank.</li>
+             <li>2.2 CodeChef.</li>
+             <li>2.3 Coderbyte.</li>
+             <li>2.4 Codewars.</li>
+             <li>2.5 CodinGame.</li>
+             <li>2.6 Geektastic.</li>
+             <li>2.7 TopCoder.</li>
+             <li>2.8 LeetCode.</li>
+    </ul>
+    </p>
+    <h2>Special Courses</h2>
+    <p>available for Certification</p>
+    <div class="xnamefname" style="height:60px;">@ 499 Rs</div><br>
+    <div class="xnamefname" style="height:60px;">@ 799 Rs</div><br>
+    <div class="xnamefname" style="height:60px;">@ 999 Rs</div>
+  </div>
+  <div class="main">
+    <h2>Sample Code</h2>
+    <h5>PYTHON</h5>
+    <div data-pym-src="https://www.jdoodle.com/embed/v0/5Aoo">
+    </div>
+    <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <h3 align="left">Location & Address</h3>
+<p align="left">Lovely Professional University Jalandhar - Delhi,</p>
+<p align="left">Grand Trunk Rd,</p>
+<p align="left">Phagwara, Punjab 144001</p>
+<h3 align="right">Contact/Helpline no.</h3>
+<p align="right">8460604713</p>
+<p align="right">8360441694</p>
+</div>
+</body>
+</html>
